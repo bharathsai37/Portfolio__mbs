@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BHARATH SAI MEESALA - Portfolio</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="author" content="Meesala Bharath Sai">
+    <meta name="keywords" content="Meesala Bharath Sai Portfolio Website,Meesala Bharath Sai Portfolio,Bharath sai Portfolio">
+    <meta name="description" content="Bharath's Portfolio">
+    <link rel="stylesheet" href="./styles.css" />
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbrand">
+                <h1 class="profile_name">Bharath Sai Meesala</h1>
+                <button id="toggle_nav">
+                    <img src="./images/menu.png" alt="menu">
+                    <img src="./images/cross.png" class="hide" alt="menu">
+                </button>
+            </div>
+            <ul class="navitems">
+                <li class="navitem"> <a href="#about-me" class="navlinks navlink-active"> About</a></li>
+                <li class="navitem"> <a href="#skills" class="navlinks"> Skills</a></li>
+                <li class="navitem"> <a href="#projects" class="navlinks"> Projects</a></li>
+            </ul>
+        </nav>
+        <hr class="separator">
+        <div class="contact_info">
+            <div class="email">
+                <img src="images/envelope.svg" alt="https://icons8.com/icon/124377/circled-envelope" />
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKkHbhvnjsWVktMJBnNXHlnHwFTDFptxXwVMkjnJBcNkpHMszwNbqfZmVRBpHfPtWStzxnB"
+                    target="_blank">bharathsaimeesala855@gmail.com</a>
+            </div>
+            <div class="phone_number">
+                <img src="images/phone.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+                <p id="phone_number">+91 9381161506</p>
+            </div>
+            <div class="address">
+               <img src="./images/address_1295181.png" alt="addressicon">
+                <p id="address">2/4, Somapuram, Kadapa</p>
+            </div>
+            <div class="linkedin">
+                <img src="./images/linkedin.png" alt="addressicond" style="filter: invert(1);">
+                <a href="https://www.linkedin.com/in/bharath-sai-456367272/" target="_blank"
+                    id="linkedin">Bharath Sai Meesala</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me -->
+    <section id="about-me">
+        <div class="image_container">
+            <img src="./images/passport mbs img.jpg" class="profile_image" />
+        </div>
+
+        <div class="content_container">
+            <h1>
+                Hi, I'm <span class="name">Meesala Bharath Sai!</span> <img src="images/waving-hand.png"
+                    class="waving-hand" />
+            </h1>
+            <p>
+                I am Bharath Sai Meesala, a web developer with expertise in HTML, CSS, JavaScript,React
+                . I often joke that my perfect weekend involves a cup of coffee, a challenging coding problem,
+                and the exhilarating moment when my code finally works after countless attempts. Want to know more?
+            </p>
+            <a href="https://drive.google.com/file/d/19BsSMUEzQMRh84lQ24SyLAfEkqZlDkUS/view?usp=sharing"
+                target="_blank" class="resume_btn">Check out my Resume</a>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28 " preserveAspectRatio="none">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 
+                    58-18 88-18s
+                    58 18 88 18 
+                    58-18 88-18 
+                    58 18 88 18
+                    v44h-352z" />
+            </defs>
+            <g class="parallax1">
+                <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1" />
+            </g>
+            <g class="parallax2">
+                <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2" />
+            </g>
+            <g class="parallax3">
+                <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1" />
+            </g>
+            <g class="parallax4">
+                <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff" />
+            </g>
+        </svg>
+        <h1>Skills</h1>
+
+        <div class="skill_categories">
+            <button id="frontend">Frontend</button>
+            <button id="backend">Backend</button>
+            <button id="other">Other</button>
+        </div>
+        <div class="all_skills">
+            <div class="skill" data-skill-category="frontend">
+                <img src="images/html5.png" />
+            </div>
+
+            <div class="skill" data-skill-category="frontend">
+                <img src="images/css.png" />
+            </div>
+            <div class="skill" data-skill-category="frontend">
+                <img src="images/js.jpeg" />
+            </div>
+            <div class="skill" data-skill-category="frontend">
+                <img class="react" src="images/react.png" />
+                <h6 style="margin-top: 5px;">React</h6>
+            </div>
+            <div class="skill" data-skill-category="frontend">
+                <img src="images/bootstraplogo.jpg" />
+                <h6>Bootstrap</h6>
+            </div>
+            <!-- <div class="skill" data-skill-category="backend">
+                <img src="images/node.png" />
+            </div>-->
+            <!-- <div class="skill" data-skill-category="backend">
+                <img src="images/mongodblogo.png" />
+            </div>  -->
+            <div class="skill" data-skill-category="backend">
+                <img src="images/springboot.png" />
+                <h6>Spring Boot</h6>
+            </div>
+            <!-- <div class="skill" data-skill-category="backend">
+                <img src="images/java.png" />
+            </div> -->
+            <div class="skill" data-skill-category="backend">
+                <img   src="images/phppng.png" />
+            </div>
+            <div class="skill" data-skill-category="backend">
+                <img   src="images/mysqll.png" />
+            </div>
+            <div class="skill" data-skill-category="other">
+                <img src="images/git.png" alt="">
+                <h6>git</h6>
+            </div>
+             
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28 " preserveAspectRatio="none">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 
+     58-18 88-18s
+     58 18 88 18 
+     58-18 88-18 
+     58 18 88 18
+     v44h-352z" />
+            </defs>
+            <g class="parallax1">
+                <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1" />
+            </g>
+            <g class="parallax2">
+                <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2" />
+            </g>
+            <g class="parallax3">
+                <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1" />
+            </g>
+            <g class="parallax4">
+                <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff" />
+            </g>
+        </svg>
+        <h1>Projects</h1>
+        <div id="projects-container" class="projects-container">
+            <div class="project-card">
+                <div class="project-head">
+                            <img src="./images/image.png" alt="Onlie Book Store">
+                </div>
+                <div class="project-body">
+                    <div class="project-title-container">
+                        <h2 class="project-title">Online Book Store</h2>
+                        <button id="read-more" onclick="expandProject(1)">Read More</button>
+                    </div>
+                    <ul class="project-content">
+                        <li>
+                            Developed an online bookstore using PHP and MySQL, allowing users to browse, search, and purchase books online.
+                        </li>
+                        <li>
+                            Implemented secure login and registration system, ensuring user data privacy with authentication features.
+                        </li>
+                        <li>
+                            Designed a user-friendly interface with HTML, CSS, and JavaScript for seamless browsing on various devices.
+                        </li>
+                        <li>
+                            Successfully deployed the project using XAMPP for testing, ensuring smooth performance and functionality.
+                        </li>
+                    </ul>
+                    
+                    <div class="project-foot">
+                        <a href="https://github.com/bharathsai37/Online_Book_Store_mini_project" target="_blank">View Project</a>
+                        <a href="" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-head">
+                    <img src="./images/weather-widget.webp" alt="weather app">
+                </div>
+                <div class="project-body">
+                    <div class="project-title-container">
+                        <h2 class="project-title">Weather app</h2>
+                        <button id="read-more" onclick=" expandProject(2)">Read More</button>
+                    </div>
+                    <ul class="project-content">
+                        <li>
+                            Developed a weather application using HTML, CSS, and JavaScript, providing real-time weather updates for any location.
+                        </li>
+                        <li>
+                            Integrated a weather API to fetch current weather data, including temperature, humidity, and wind speed.
+                        </li>
+                        <li>
+                            Designed a responsive interface to ensure a smooth user experience across various devices and screen sizes.
+                        </li>
+                        <li>
+                            Implemented location-based weather updates, allowing users to get information specific to their area.
+                        </li>
+                    </ul>
+                    
+                    <div class="project-foot">
+                        <a href="https://github.com/bharathsai37/react-weather" target="_blank">View Project</a>
+                        <a href="" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-head">
+                    <img src="./images/music player.jpg" alt="weather app">
+                </div>
+                <div class="project-body">
+                    <div class="project-title-container">
+                        <h2 class="project-title">Music Player</h2>
+                        <button id="read-more" onclick=" expandProject(2)">Read More</button>
+                    </div>
+                    <ul class="project-content">
+                        <li>
+                            Developed a music player application using HTML, CSS, and JavaScript, enabling users to play, pause, and skip tracks.
+                        </li>
+                        <li>
+                            Implemented audio controls such as volume adjustment, track progress, and shuffle functionality.
+                        </li>
+                        <li>
+                            Integrated a custom playlist feature allowing users to add and remove songs dynamically.
+                        </li>
+                        <li>
+                            Added animations for smooth transitions between tracks and audio states.
+                        </li>
+                    </ul>
+                    
+                    
+                    <div class="project-foot">
+                        <a href="" target="_blank">View Project</a>
+                        <a href="" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="project-card">
+                <div class="project-head">
+                    <img src="./images/Project3-FlipkartClone.jpg" alt="FlipkartClone Banner">
+                </div>
+                <div class="project-body">
+                    <div class="project-title-container">
+                        <h2 class="project-title">Flipkart Clone</h2>
+                        <button id="read-more" onclick=" expandProject(3)">Read More</button>
+                    </div>
+                    <ul class="project-content">
+                        <li>
+                            Created an accurate replica of the Flipkart website's user interface using only HTML and
+                            CSS, demonstrating attention to detail and design skills.
+                        </li>
+                        <li>
+                            Developed the entire front-end without user interaction, focusing solely on replicating the
+                            visual elements and layout.
+                        </li>
+                        <li>
+                            Utilized original images from the Flipkart website to enhance the authenticity and visual
+                            appeal of the clone.
+                        </li>
+                        <li>
+                            Successfully deployed the static site on GitHub Pages, ensuring easy access and showcasing
+                            the project to potential employers or clients.
+                        </li>
+                    </ul>
+                    <div class="project-foot">
+                        <a href="https://github.com/PradeepG-07/Flipkart-LandingPage-Clone" target="_blank">View Project</a>
+                        <a href="https://pradeepg-07.github.io/Flipkart-LandingPage-Clone/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <button id="show-more">Show More</button>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <div class="iconbutton">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+                width="63px">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- Popup to show extra information about a project -->
+    <div class="popup" id="popup" class="flex_center">
+        <div class="expanded-project-head">
+            <button onclick="clearExpandedProject()"><img src="./images/cross.png" alt="Close"></button>
+        </div>
+        <div class="expanded-project-body">
+            <div class="expanded-project-image">
+            </div>
+            <ul class="expanded-project-content">
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
